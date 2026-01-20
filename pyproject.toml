@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "pricetracker"
+version = "0.1.0"
+description = ""
+authors = ["mohitsethi <mohit.sethi@maersk.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.4"
+django-background-tasks = "^1.2.5"
+django-compat = "^1.0.15"
+django-crispy-forms = "^2.1"
+django-heroku = "^0.3.1"
+django-storages = "^1.14.2"
+scrapy-djangoitem = "^1.1.1"
+pytz = "^2024.1"
+python-dotenv = "^1.0.1"
+pillow = "^10.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
